@@ -1,3 +1,4 @@
+
 function calculateBMI() {
   // Don't edit the code
   let age = document.getElementById("age").value;
@@ -7,5 +8,79 @@ function calculateBMI() {
   let female = document.getElementById("f").checked;
   console.table({ age, weight, height, male, female });
 
-  // You are going to write the code here before the curly braces 👇🏻
+  // You are going to write the code here before the curly braces
+
+ alert(calculateBMI = weight/((height*0.01*height*0.01)));
+   // part 2
+  if (calculateBMI<18.5)
+  {
+    alert("Underweight");
+  }
+  else if (calculateBMI >=18.5 && calculateBMI <= 24.9)
+  {
+    alert("Healthy Weight");
+  }
+
+  else if (calculateBMI >= 25 && calculateBMI <= 29.9)
+  {
+    alert("OVERweight");
+  }
+
+  else if (calculateBMI > 30) 
+  {
+    alert("Above Obesity");
+  }
+
+  
+  // part 3
+
+ if (age >= 19 && age <= 24){
+  if (calculateBMI >= 19 && calculateBMI <= 24){
+
+  alert("Healthy");
+ }
+ else 
+  alert("Not Healthy");
+ }
+
+ else if (age >= 25 && age <= 34){
+  if (calculateBMI >= 20 && calculateBMI <= 25){
+  alert("Healthy");
+  }
+  else 
+  alert("Not Healthy");
+ }
+
+ else if (age >= 35 && age <= 44){
+  if (calculateBMI >= 21 && calculateBMI <= 26){
+    alert("Healthy");
+  }
+  else 
+  alert("Not Healthy");
+
+ }
+ else if (age >= 45 && age <= 54){
+  if (calculateBMI >= 22 && calculateBMI <= 27){
+    alert("Helthy");
+  }
+  else 
+  alert ("Not Helthy");
+ }
+ 
+ else if (age >= 55 && age <= 64){
+  if (calculateBMI >= 23 && calculateBMI <= 28){
+    alert("Helthy");
+  }
+  else
+  alert ("Not Helthy")
+
+ }
+ else if (age >= 65){
+  if (calculateBMI >= 24 && calculateBMI <= 29){
+    alert("Helthy")
+  }
+  else 
+  alert ("Not Helthy")
+ }
+
 }
