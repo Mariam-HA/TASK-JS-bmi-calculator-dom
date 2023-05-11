@@ -65,5 +65,5 @@ function calculateBMI() {
       healthStatus = "Not Helthy";
     }
   }
-  alert(`Your bmi is ${Math.round(bmi)} and is considerd ${healthStatus}`);
+  alert(`Your bmi is ${Math.round(bmi)} and it considerd ${healthStatus}`);
 }
